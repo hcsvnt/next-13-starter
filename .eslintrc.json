@@ -1,0 +1,22 @@
+{
+  "extends": [
+      "next/core-web-vitals",
+      // "plugin:@typescript-eslint/recommended",
+      "plugin:react/recommended",
+      "plugin:import/errors",
+      "plugin:import/warnings",
+      "plugin:jsx-a11y/recommended",
+      "plugin:react-hooks/recommended",
+      "prettier"
+  ],
+  "rules": {
+      "prefer-destructuring": "warn",
+      "prefer-template": "warn",
+      "semi": "warn",
+      "no-console": "warn",
+      "prefer-spread": "warn",
+      "no-nested-ternary": "warn",
+      "no-var": "warn",
+      "react/react-in-jsx-scope": "off"
+  }
+}
