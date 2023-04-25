@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { styled, theme } from '@/styles/stitches';
+import { styled } from '@/styles/stitches';
 
 export default function Hello() {
     return (
