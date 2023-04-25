@@ -14,6 +14,14 @@ export const { styled, css, theme, createTheme, getCssText } = createStitches({
         touch: '(hover: none)'
     },
     theme: {
-        //
+        colors: {
+            pink: 'var(--c-pink)',
+            aqua: 'var(--c-aqua)',
+            grid: 'var(--c-grid)',
+        },
+        fonts: {
+            coord: 'var(--ff-coord)',
+            grotesk: 'var(--ff-grotesk)',
+        }
     }
 });

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { styled } from '@/styles/stitches';
+import { styled, theme } from '@/styles/stitches';
 
 export default function Hello() {
     return (
@@ -24,7 +24,7 @@ export default function Hello() {
 const Wrapper = styled.withConfig({ displayName: 'hello-wrapper' })('div', {
     width: 'fit-content',
     padding: '2em 3em',
-    backgroundColor: 'pink',
+    backgroundColor: '$pink',
 
     h1: {
         textAlign: 'center'
